@@ -1,0 +1,418 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="ASPICE">
+        <meta name="keywords" content="ASPICE">
+        <meta name="author" content="Piotr Górecki">
+
+
+        <link rel="shortcut icon" href="static/images/aspice.jpeg">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="static/glowny.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+
+        <title>ASPICE</title>
+    </head>
+
+    <body>
+
+        <main role="main" class="container">
+            <a href="#" class="scrollup"></a>
+            <div class="container">
+
+                <div class="border mb-5 bg-dark">
+                    <h1 class="text-muted text-center mt-3 mb-1">ASPICE TRACEBILITY FRAMEWORK</h1>
+                    <h4 class="text-muted text-justify m-5">
+                        Framework is dedicated for creating system, software requirements, tests
+                        specification and for linking everything easily to have good tracebility
+                        including architecture design and code. Practical framework usage is 
+                        visible with example project:
+                        <a class="linknr text-muted" target="_blank" href="https://www.twojkomputerowiec.bydgoszcz.pl/aspice">
+                            https://www.twojkomputerowiec.bydgoszcz.pl/aspice
+                        </a>
+                    </h4>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SYSTEM REQUIREMENTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSysReq.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link1cont">ID: SYSREQ1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link10001">SYSTEST1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link20001">SYSARCH1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link2cont">ID: SYSREQ2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknrX text-light" id="linkX">...</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SYSREQ2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SYSTEM TESTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSysTest.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link10001cont">ID: SYSTEST1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link1">SWREQ1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link10002cont">ID: SYSTEST2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknrX text-light" id="linkX">...</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SYSTEST2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SYSTEM ARCHITECTURE rev: 0.1</h2>
+                    <img src="static/images/VMODELSysArch.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link2001cont">ID: SYSARCH1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link1">SYSREQ1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link3001">SYSINT1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link4001">SWREQ1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link2002cont">ID: SYSARCH2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="#" class="linknrX text-light" id="linkX">...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SYSARCH2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SYSTEM INTEGRATION TESTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSysInt.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link3001cont">ID: SYSINT1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link2001">SYSARCH1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link3002cont">ID: SYSINT2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="#" class="linknrX text-light" id="linkX">...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SYSINT2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SOFTWARE REQUIREMENTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSwReq.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link4001cont">ID: SWREQ1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link2001">SYSARCH1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link5001">SWTEST1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link6001">SWARCH1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link4002cont">ID: SWREQ2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknrX text-light" id="linkX">...</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SWREQ2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SOFTWARE TESTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSwTest.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link5001cont">ID: SWTEST1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link4001">SWREQ1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link5002cont">ID: SWTEST2</p>
+                        </div>
+                        <div class="col-md-8">
+                            <!--to embed github code-->
+                            <!--https://emgithub.com-->
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="#" class="linknrX text-light" id="linkX">...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SWTEST2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SOFTWARE ARCHITECTURE rev: 0.1</h2>
+                    <img src="static/images/VMODELSwArch.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link6001cont">ID: SWARCH1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link4001">SWREQ1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link7001">SWINT1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link8001">SWDET1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link6002cont">ID: SWARCH2</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="#" class="linknrX text-light" id="linkX">...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SWARCH2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SOFTWARE INTEGRATION TESTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSwInt.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link7001cont">ID: SWINT1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link6001">SWARCH1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link7002cont">ID: SWINT2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="#" class="linknrX text-light" id="linkX">...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SWINT2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SOFTWARE DETAILS rev: 0.1</h2>
+                    <img src="static/images/VMODELSwDet.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link8001cont">ID: SWDET1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link6001">SWARCH1</a></p>
+                            <p><a href="#" class="linknr text-light" id="link9001">SWUNIT1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link8002cont">ID: SWDET2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            ...
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SWDET2</div>
+                    </div>
+                </div>
+            
+                <div class="border mb-5 bg-dark">
+                    <h2 class="text-muted text-center mt-5 mb-1">SOFTWARE UNIT TESTS rev: 0.1</h2>
+                    <img src="static/images/VMODELSwUnit.png" class="img-fluid mb-3">
+                    <h4 class="text-muted text-center mb-1">LOREM IPSUM</h4>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link9001cont">ID: SWUNIT1</p>
+                        </div>
+                        <div class="col-md-8 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <p><a href="#" class="linknr text-light" id="link8001">SWDET1</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-2 text-center">
+                            <p id="link9002cont">ID: SWUNIT2</p>
+                        </div>
+                        <div class="col-md-8">
+                            ...
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="#" class="linknrX text-light" id="linkX">...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">lastUsedId: SWUNIT2</div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- JQuery for own needs -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- JQuery scrolling scritps -->
+        <script src="static/jquery.scrollTo.min.js"></script>
+        <script src="static/jquery.scrollUpDown.js"></script>
+    </body>
+
+</html>

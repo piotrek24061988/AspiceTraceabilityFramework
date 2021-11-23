@@ -1,0 +1,45 @@
+body {
+  background-color: #343a40;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-top: 5rem;
+  font-family: 'Teko', sans-serif;
+  color: white;
+}
+
+.scrollup {
+    width: 100px;
+    height: 128px;
+    background: url("./images/scrollup.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position : fixed;
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    z-index:1;
+    transition: all 0.5s ease-in-out;
+}
+
+.scrollup:hover {
+    transform: scale(0.7);
+}
+
+.linknr {
+    position: relative;
+}
+
+.linknr .overlay {
+    position: absolute;
+    top: 0;
+    padding: 1%;
+    background: black;
+    color: white;
+    opacity: 0;
+    width: 100%;
+    transition: opacity 2s ease-in-out;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
